@@ -1,0 +1,36 @@
+@import "../var/var.less";
+
+.mask() {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+
+.meun-base() {
+  width: @CircleWidth;
+  height: @CircleHeight;
+  line-height: 50px;
+  display: inline-block;
+  border: none;
+  text-align: center;
+  position: relative;
+}
+
+
+.circle(){
+  border-radius: 50%;
+}
+
+
+.CircleItem(){
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
